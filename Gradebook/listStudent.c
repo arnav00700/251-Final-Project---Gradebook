@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 #include "student.h"
 #include "listStudent.h"
 
@@ -13,8 +13,9 @@ void listStudents(Student students[], int student_count)
 for (int i = 0; i < student_count; i++)
 {
       printf("Student %d:\n", i + 1);
-      printf("Nmae: %s\n", students[i].student_name);
-      printf("Grades: %d\n", students{i}.grade_count);
+      printf("ID: %d\n", students[i].id);
+      printf("Name: %s\n", students[i].student_name);
+      printf("Grades: %d\n", students[i].grade_count);
       printf("\n");
   }
 }
